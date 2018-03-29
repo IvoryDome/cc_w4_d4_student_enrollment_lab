@@ -1,0 +1,21 @@
+<form method="post" action="/students">
+  <label for="first-name">First Name:</label>
+  <input id="first-name" type="text" name="first_name"/>
+
+  <label for="second-name">Second Name:</label>
+  <input id="second-name" type="text" name="second_name"/>
+
+  <label for="house">Select a house:</label>
+  <select id="house-select" name="house">
+    <option value="<%=house1.id%>">Earth</option>
+    <option value="<%=house2.id%>">Water</option>
+    <option value="<%=house3.id%>">Air</option>
+    <option value="<%=house4.id%>">Fire</option>
+  </select>
+
+  <label for="age">Age:</label>
+  <input id="age" type="number" name="age"/>
+
+  <input type="submit" value="Enrol Student"/>
+
+</form>
